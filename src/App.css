@@ -1,0 +1,67 @@
+.App{
+  background-color:  hsl(215, 100%, 50%);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 100px;
+}
+.type {
+  font-size: 13px;
+  font-weight: 700;
+  color: hsl(0, 0%, 60%);
+}
+.top{
+  text-align: center;
+  border-bottom: solid 0.5px ;
+  border-color: hsl(0, 0%, 72%) ;
+}
+.mon {
+  font-size: 15px;
+  font-weight: 500;
+}
+.bold{
+  font-weight: bolder;
+}
+.price {
+  font-size: 45px;
+  font-weight: 500;
+}
+.card {
+  width: 350px;
+  margin: 20px;
+  padding: 20px;
+  text-align: left;
+  border-radius: 20px;
+  background-color: hsl(0, 0%, 100%);
+}
+.card:hover {
+  transform: translateY(-5px);
+  transition: all 0.25s;
+}
+ul {
+  padding-inline-start: 20px;
+}
+ul > li {
+  list-style-type: none;
+}
+li > span {
+  margin-right: 15px;
+}
+.btn1 {
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+  background-color: hsla(220, 100%, 50%);
+  border: none;
+  width: 100%;
+  padding: 20px;
+  border-radius: 30px;
+  opacity: 0.7;
+  cursor: pointer;
+}
+.App .card:hover .btn1 {
+  opacity: 1;
+}
+.False_class{
+  color: hsl(0, 0%, 60%);
+}
